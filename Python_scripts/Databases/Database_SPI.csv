@@ -1,0 +1,79 @@
+Category,Device,Command Hex,Meaning
+Memory,SPI Flash,0x03,Read Data
+Memory,SPI Flash,0x0B,Fast Read
+Memory,SPI Flash,0x3B,Dual Output Fast Read
+Memory,SPI Flash,0x6B,Quad Output Fast Read
+Memory,SPI Flash,0xEB,Quad I/O Fast Read
+Memory,SPI Flash,0x02,Page Program
+Memory,SPI Flash,0x32,Quad Page Program
+Memory,SPI Flash,0x20,Sector Erase (4KB)
+Memory,SPI Flash,0x52,Block Erase (32KB)
+Memory,SPI Flash,0xD8,Block Erase (64KB)
+Memory,SPI Flash,0xC7,Chip Erase
+Memory,SPI Flash,0x05,Read Status Register-1
+Memory,SPI Flash,0x35,Read Status Register-2
+Memory,SPI Flash,0x15,Read Status Register-3
+Memory,SPI Flash,0x01,Write Status Register-1
+Memory,SPI Flash,0x31,Write Status Register-2
+Memory,SPI Flash,0x11,Write Status Register-3
+Memory,SPI Flash,0x06,Write Enable
+Memory,SPI Flash,0x04,Write Disable
+Memory,SPI Flash,0x9F,Read JEDEC ID
+Memory,SPI Flash,0x90,Read Manufacturer/Device ID
+Memory,SPI Flash,0xAB,Release Power-down / ID
+Memory,SPI Flash,0xB9,Power-down
+Memory,SPI Flash,0xB7,Enter 4-Byte Address Mode
+Memory,SPI Flash,0xE9,Exit 4-Byte Address Mode
+Camera,Arducam Mini,0x40,Start image capture
+Camera,Arducam Mini,0x41,Get FIFO length
+Camera,Arducam Mini,0x42,Read FIFO
+Camera,Arducam Mini,0x04,Flush FIFO
+Camera,Arducam Mini,0x20 0x00,Set resolution to QQVGA
+Camera,Arducam Mini,0x20 0x01,Set resolution to QVGA
+Camera,Arducam Mini,0x20 0x02,Set resolution to VGA
+Camera,Arducam Mini,0x21 0x00,Set format to JPEG
+Camera,Arducam Mini,0x21 0x01,Set format to RGB565
+Camera,Arducam Mini,0x21 0x02,Set format to YUV422
+Camera,Arducam Mini,0x80 0xFF,Read register 0xFF
+Camera,Arducam Mini,0x00 0xFF 0x01,Write 0x01 to register 0xFF
+PLC,MCP23S17,0x40 0x00,Read IODIRA (Direction Register A)
+PLC,MCP23S17,0x40 0x01,Read IODIRB (Direction Register B)
+PLC,MCP23S17,0x40 0x02,Read IPOLA (Input Polarity A)
+PLC,MCP23S17,0x40 0x03,Read IPOLB (Input Polarity B)
+PLC,MCP23S17,0x40 0x04,Read GPINTENA (Interrupt Enable A)
+PLC,MCP23S17,0x40 0x05,Read GPINTENB (Interrupt Enable B)
+PLC,MCP23S17,0x40 0x06,Read DEFVALA (Default Value A)
+PLC,MCP23S17,0x40 0x07,Read DEFVALB (Default Value B)
+PLC,MCP23S17,0x40 0x08,Read INTCONA (Interrupt Control A)
+PLC,MCP23S17,0x40 0x09,Read INTCONB (Interrupt Control B)
+PLC,MCP23S17,0x40 0x0A,Read IOCON (Configuration Register)
+PLC,MCP23S17,0x40 0x0B,Read GPPUA (Pull-up Resistor A)
+PLC,MCP23S17,0x40 0x0C,Read GPPUB (Pull-up Resistor B)
+PLC,MCP23S17,0x40 0x0D,Read INTFA (Interrupt Flag A)
+PLC,MCP23S17,0x40 0x0E,Read INTFB (Interrupt Flag B)
+PLC,MCP23S17,0x40 0x0F,Read INTCAPA (Captured Value A)
+PLC,MCP23S17,0x40 0x10,Read INTCAPB (Captured Value B)
+PLC,MCP23S17,0x40 0x12,Read GPIOA (Port A Value)
+PLC,MCP23S17,0x40 0x13,Read GPIOB (Port B Value)
+PLC,MCP23S17,0x41 0x00 0xFF,Set IODIRA to 0xFF (all inputs)
+PLC,MCP23S17,0x41 0x01 0x00,Set IODIRB to 0x00 (all outputs)
+PLC,MCP23S17,0x41 0x12 0xAA,Set GPIOA to 0xAA
+PLC,MCP23S17,0x41 0x13 0x55,Set GPIOB to 0x55
+Imaging,FLIR Lepton,0x02 0x00,Get Sys Ping
+Imaging,FLIR Lepton,0x02 0x02,Get Camera Status
+Imaging,FLIR Lepton,0x02 0x04,Run FFC (Flat Field Correction)
+Imaging,FLIR Lepton,0x02 0x06,Get FFC Status
+Imaging,FLIR Lepton,0x02 0x08,Set Operation Mode
+Imaging,FLIR Lepton,0x02 0x0A,Get Operation Mode
+Imaging,FLIR Lepton,0x02 0x0C,Set GPIO Mode
+Imaging,FLIR Lepton,0x02 0x0E,Get GPIO Mode
+Imaging,FLIR Lepton,0x02 0x10,Set AGC Enable State
+Imaging,FLIR Lepton,0x02 0x12,Get AGC Enable State
+Imaging,FLIR Lepton,0x02 0x14,Set AGC Policy
+Imaging,FLIR Lepton,0x02 0x16,Get AGC Policy
+Imaging,FLIR Lepton,0x02 0x18,Set AGC ROI
+Imaging,FLIR Lepton,0x02 0x1A,Get AGC ROI
+Imaging,FLIR Lepton,0x02 0x1C,Set AGC Histogram Statistics
+Imaging,FLIR Lepton,0x02 0x1E,Get AGC Histogram Statistics
+Imaging,FLIR Lepton,0x02 0x20,Set AGC Damping Factor
+Imaging,FLIR Lepton,0x02 0x22,Get AGC Damping Factor

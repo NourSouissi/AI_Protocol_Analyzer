@@ -1,0 +1,249 @@
+PGN,Meaning
+0x0000,Request PGN
+0x00FF,Proprietary A
+0xC200,Transfer PGN
+0xCA00,Acknowledgement
+0xCB00,Request 2 PGN
+0xCC00,Transfer Protocol - Connection Abort
+0xCE00,Transport Protocol - Connection Management
+0xCF00,Transport Protocol - Data Transfer
+0xD000,BAM - Broadcast Announce Message
+0xD100,CON - Connection Mode
+0xD200,RTS - Request to Send
+0xD300,CTS - Clear to Send
+0xD400,EOM - End of Message
+0xD500,Abort
+0xD600,Address Delete
+0xD700,Address Requested
+0xEA00,Request for PGN
+0xEB00,Response to Request PGN
+0xEC00,Address Claimed
+0xED00,Commanded Address
+0xEE00,Address Claimed by Another Device
+0xEF00,Proprietary B
+0xF000,Aftertreatment 1 Diesel Exhaust Fluid Tank 1 Information
+0xF001,Electronic Brake Controller 1
+0xF002,Electronic Brake Controller 2
+0xF003,Electronic Engine Controller 2
+0xF004,Electronic Engine Controller 1
+0xF005,Electronic Transmission Controller 1
+0xF006,Electronic Transmission Controller 2
+0xF007,Electronic Axle Controller 1
+0xF008,Electronic Retarder Controller 1
+0xF009,Hydraulic Pressure Controller
+0xF00A,Electronic Tractor Controller
+0xF00B,Implement Controller
+0xF00C,Ground-Based Speed Sensor
+0xF00D,Virtual Terminal
+0xF00E,Vehicle Position
+0xF00F,Vehicle Direction and Speed
+0xF010,Vehicle Dynamics
+0xF011,Adaptive Cruise Control
+0xF012,Lighting Command
+0xF013,Lighting Data
+0xF014,Hitch Control Command
+0xF015,Hitch Control Data
+0xF016,PTO Control Command
+0xF017,PTO Control Data
+0xF018,Auxiliary Valve Command
+0xF019,Auxiliary Valve Data
+0xF01A,Engine Configuration
+0xF01B,Engine Fluid Level/Pressure
+0xF01C,Engine Torque History
+0xF01D,Engine Speed History
+0xF01E,Shutdown
+0xF01F,Idle Operation
+0xF020,Fan Drive
+0xF021,Cab Illumination
+0xF022,Steering Controller
+0xF023,Vehicle Weight
+0xF024,Ambient Conditions
+0xF025,Vehicle Electrical Power
+0xF026,Inlet/Exhaust Conditions
+0xF027,Turbocharger
+0xF028,Exhaust Gas Recirculation
+0xF029,Fuel Economy
+0xF02A,Vehicle Hours
+0xF02B,Total Vehicle Distance
+0xF02C,Total Engine Hours
+0xF02D,Total Engine Revolutions
+0xF02E,Total Fuel Used
+0xF02F,Total Idle Fuel Used
+0xF030,Total Idle Hours
+0xF031,Vehicle Identification
+0xF032,Trip Information
+0xF033,Trip Fuel Economy
+0xF034,Trip Distance
+0xF035,Trip Time
+0xF036,Trip Idle Time
+0xF037,Trip PTO Time
+0xF038,Trip Engine Hours
+0xF039,Trip Fuel Used
+0xF03A,Trip Idle Fuel Used
+0xF03B,Trip Distance on Battery
+0xF03C,Trip Fuel Used on Battery
+0xF03D,Trip Time on Battery
+0xF03E,Trip Distance on Alternative Fuel
+0xF03F,Trip Fuel Used on Alternative Fuel
+0xF040,Trip Time on Alternative Fuel
+0xF041,Trip Distance on Natural Gas
+0xF042,Trip Fuel Used on Natural Gas
+0xF043,Trip Time on Natural Gas
+0xF044,Engine Protection System
+0xF045,Engine Protection System Timer
+0xF046,Engine Protection System Configuration
+0xF047,Engine Protection System Status
+0xF048,Engine Protection System History
+0xF049,Engine Protection System Configuration 2
+0xF04A,Engine Protection System Status 2
+0xF04B,Engine Protection System History 2
+0xF04C,Aftertreatment 1 Diesel Particulate Filter
+0xF04D,Aftertreatment 1 Diesel Exhaust Fluid Tank 2 Information
+0xF04E,Aftertreatment 2 Diesel Particulate Filter
+0xF04F,Aftertreatment 2 Diesel Exhaust Fluid Tank 1 Information
+0xF050,Aftertreatment 1 Gas Intake
+0xF051,Aftertreatment 1 Gas Outlet
+0xF052,Aftertreatment 2 Gas Intake
+0xF053,Aftertreatment 2 Gas Outlet
+0xF054,Aftertreatment 1 SCR Information
+0xF055,Aftertreatment 2 SCR Information
+0xF056,Aftertreatment 1 Diesel Particulate Filter Regeneration
+0xF057,Aftertreatment 2 Diesel Particulate Filter Regeneration
+0xF058,Aftertreatment 1 Diesel Exhaust Fluid Tank 3 Information
+0xF059,Aftertreatment 1 Diesel Exhaust Fluid Tank 4 Information
+0xF05A,Aftertreatment 2 Diesel Exhaust Fluid Tank 2 Information
+0xF05B,Aftertreatment 2 Diesel Exhaust Fluid Tank 3 Information
+0xF05C,Aftertreatment 2 Diesel Exhaust Fluid Tank 4 Information
+0xF05D,Aftertreatment 1 Diesel Particulate Filter History
+0xF05E,Aftertreatment 2 Diesel Particulate Filter History
+0xF05F,Aftertreatment 1 Diesel Particulate Filter Control
+0xF060,Aftertreatment 2 Diesel Particulate Filter Control
+0xF061,Aftertreatment 1 Diesel Exhaust Fluid Tank 1 Control
+0xF062,Aftertreatment 1 Diesel Exhaust Fluid Tank 2 Control
+0xF063,Aftertreatment 2 Diesel Exhaust Fluid Tank 1 Control
+0xF064,Aftertreatment 2 Diesel Exhaust Fluid Tank 2 Control
+0xF065,Aftertreatment 1 Gas Particulate Filter
+0xF066,Aftertreatment 2 Gas Particulate Filter
+0xF067,Aftertreatment 1 Gas Particulate Filter Regeneration
+0xF068,Aftertreatment 2 Gas Particulate Filter Regeneration
+0xF069,Aftertreatment 1 Gas Particulate Filter History
+0xF06A,Aftertreatment 2 Gas Particulate Filter History
+0xF06B,Aftertreatment 1 Gas Particulate Filter Control
+0xF06C,Aftertreatment 2 Gas Particulate Filter Control
+0xF06D,Engine Fuel Delivery Pressure
+0xF06E,Engine Oil Information
+0xF06F,Engine Coolant Information
+0xF070,Engine Air Intake Information
+0xF071,Engine Exhaust Information
+0xF072,Engine Power Information
+0xF073,Engine Load Information
+0xF074,Engine Timing Information
+0xF075,Engine Combustion Information
+0xF076,Engine Emission Control Information
+0xF077,Engine Diagnostic Information
+0xF078,Engine Maintenance Information
+0xF079,Engine Performance Information
+0xF07A,Engine Calibration Information
+0xF07B,Engine Configuration 2
+0xF07C,Engine Configuration 3
+0xF07D,Engine Configuration 4
+0xF07E,Engine Configuration 5
+0xF07F,Engine Configuration 6
+0xF080,Engine Configuration 7
+0xF081,Engine Configuration 8
+0xF082,Engine Configuration 9
+0xF083,Engine Configuration 10
+0xF084,Engine Configuration 11
+0xF085,Engine Configuration 12
+0xF086,Engine Configuration 13
+0xF087,Engine Configuration 14
+0xF088,Engine Configuration 15
+0xF089,Engine Configuration 16
+0xF08A,Engine Configuration 17
+0xF08B,Engine Configuration 18
+0xF08C,Engine Configuration 19
+0xF08D,Engine Configuration 20
+0xFE90,Service Component Identification
+0xFE91,Service Distance Information
+0xFE92,Service Time Information
+0xFE93,Service Component Status
+0xFE94,Service Component Configuration
+0xFE95,Service Component History
+0xFE96,Service Component Calibration
+0xFE97,Service Component Performance
+0xFE98,Service Component Diagnostics
+0xFE99,Service Component Maintenance
+0xFE9A,Service Component Operation
+0xFE9B,Service Component Faults
+0xFE9C,Service Component Warnings
+0xFE9D,Service Component Alarms
+0xFE9E,Service Component Events
+0xFE9F,Service Component Logs
+0xFEA0,Vehicle Network Information
+0xFEA1,Vehicle Network Status
+0xFEA2,Vehicle Network Configuration
+0xFEA3,Vehicle Network Performance
+0xFEA4,Vehicle Network Diagnostics
+0xFEA5,Vehicle Network Maintenance
+0xFEA6,Vehicle Network Operation
+0xFEA7,Vehicle Network Faults
+0xFEA8,Vehicle Network Warnings
+0xFEA9,Vehicle Network Alarms
+0xFEAA,Vehicle Network Events
+0xFEAB,Vehicle Network Logs
+0xFEAC,Vehicle Network Security
+0xFEAD,Vehicle Network Access
+0xFEAE,Vehicle Network Control
+0xFEAF,Vehicle Network Monitoring
+0xFEB0,Vehicle Network Reporting
+0xFEB1,Vehicle Network Analysis
+0xFEB2,Vehicle Network Optimization
+0xFEB3,Vehicle Network Integration
+0xFEB4,Vehicle Network Compatibility
+0xFEB5,Vehicle Network Reliability
+0xFEB6,Vehicle Network Availability
+0xFEB7,Vehicle Network Scalability
+0xFEB8,Vehicle Network Flexibility
+0xFEB9,Vehicle Network Adaptability
+0xFEBA,Software Identification
+0xFEBB,ECU Identification
+0xFEBC,ECU Performance
+0xFEBD,Engine Hours/Revolutions
+0xFEBE,Time/Date
+0xFEBF,Vehicle Distance
+0xFEC0,Fuel Consumption
+0xFEC1,Vehicle Speed
+0xFEC2,Trip Fan Information
+0xFEC3,Trip Fuel Information
+0xFEC4,Trip Engine Information
+0xFEC5,Trip Transmission Information
+0xFEC6,Trip Brake Information
+0xFEC7,Trip Suspension Information
+0xFEC8,Trip Axle Information
+0xFEC9,Trip Steering Information
+0xFECA,Trip Cruise Control Information
+0xFECB,Trip Driver Information
+0xFECC,Trip Vehicle Information
+0xFECD,Trip Environmental Information
+0xFECE,Trip Electrical Information
+0xFECF,Trip Diagnostic Information
+0xFED0,Trip Aftertreatment Information
+0xFED1,Trip Battery Information
+0xFED2,Trip Alternative Fuel Information
+0xFED3,Trip Natural Gas Information
+0xFED4,DM4 - Freeze Frame Parameters
+0xFED5,DM5 - Diagnostic Readiness 1
+0xFED6,DM6 - Pending Diagnostic Trouble Codes
+0xFED7,DM7 - Commanded Diagnostic Test
+0xFED8,DM8 - Diagnostic Data Clear/Reset for Active DTCs
+0xFED9,DM9 - Diagnostic Data Clear/Reset for Previously Active DTCs
+0xFEDA,DM1 - Active Diagnostic Trouble Codes
+0xFEDB,DM2 - Previously Active Diagnostic Trouble Codes
+0xFEDC,DM3 - Diagnostic Data Clear/Reset
+0xFEDD,DM11 - Clear All Active and Previously Active DTCs
+0xFEDE,DM12 - Emissions-Related Active Diagnostic Trouble Codes
+0xFEDF,DM13 - Stop/Start Broadcast
+0xFEE0,DM14 - Memory Access Request
+0xFEE1,DM15 - Memory Access Response
+0xFEE2,DM16 - Binary Data Transfer
+0xFEE3,DM17 - Diagnostic Readiness 2

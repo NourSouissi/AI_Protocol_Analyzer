@@ -1,0 +1,20 @@
+Function Code,Meaning
+0x01,read digital outputs
+0x02,read digital inputs
+0x03,read analog outputs
+0x04,read analog inputs
+0x05,set a single digital output
+0x06,set a single analog output
+0x07,get device-specific status
+0x08,diagnostics
+0x0B,get communication event counter
+0x0C,get communication event log
+0x0F,set multiple digital outputs
+0x10,set multiple analog outputs
+0x11,get device identification
+0x14,read from file records
+0x15,write to file records
+0x16,modify bits in a register
+0x17,combined read and write
+0x18,read from a FIFO queue
+0x2B,encapsulated interface transport

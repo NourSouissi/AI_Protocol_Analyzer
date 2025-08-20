@@ -1,0 +1,20 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Large AI models and predictive files
+*.joblib
+*.pkl
+*.h5
+
+# Generated databases
+*.csv
+/Python_scripts/Databases/
+
+# C++ executables
+C++_Scripts/Executables/*.exe
+
+# OS files
+.DS_Store
+Thumbs.db

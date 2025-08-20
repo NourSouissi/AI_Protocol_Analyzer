@@ -1,0 +1,27 @@
+import pandas as pd
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.preprocessing import LabelEncoder
+import joblib
+
+# Load data from CSV
+data = pd.read_csv("Database_PMBus.csv")
+
+# Convert hexadecimal command codes to integers
+data['Command_Code_int'] = data['Command Code'].apply(lambda x: int(x, 16))
+
+# Encode the meanings into numerical labels
+le = LabelEncoder()
+data['Meaning_encoded'] = le.fit_transform(data['Meaning'])
+
+# Prepare features (command code integers) and labels (encoded meanings)
+X = data['Command_Code_int'].values.reshape(-1, 1)
+y = data['Meaning_encoded'].values
+
+# Initialize and train the RandomForestClassifier
+clf = RandomForestClassifier(n_estimators=100, random_state=42)
+clf.fit(X, y)
+
+# Save the trained model and label encoder
+joblib.dump(clf, "rf_command_model.joblib")
+joblib.dump(le, "label_encoder_command.joblib")
+print("Model and label encoder saved successfully.")
