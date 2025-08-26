@@ -31,11 +31,11 @@ This project includes Python scripts, predictive AI models, generated databases,
 - **CAN, I2C, SPI, UART**: Communication protocols analyzed  
 - **Databases**: CSV-based datasets for protocol testing and model training  
 - **Executables**: Compiled predictors for quick testing (ignored in Git)  
-I used custom Databases for the applicative layer of these communication protocols, ModBus for UART, PMBus for I2C and SAE j1939 for CAN which you can find freely on the internet, SAE j1939's full commands however are available for purchase, you can use the free ones you can acquire on the internet for testing purposes.
 
 ## Notes
 - Large AI model files, executables, and generated databases are **not included** in this repository due to GitHub size limits.  
-- You can regenerate models and databases using the Python scripts in `/Python_scripts/`.  
+- You can regenerate models and databases using the Python scripts in `/Python_scripts/`.
+- I used custom Databases for the applicative layer of these communication protocols, ModBus for UART, PMBus for I2C and SAE j1939 for CAN which you can find freely on the internet, SAE j1939's full commands however are available for purchase, you can use the free ones you can acquire on the internet for testing purposes.
 
 ## License
 MIT License (or your preferred license)
